@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>negamir</title>
+    <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
-    <button> click!</button>
-    <button> contact</button>
+    <button class="btn"> click!</button>
+    <div class="show"></div>
+    <script>
+        let btn=document.querySelector(".btn")
+        btn.addEventListener("click",function(){
+          document.querySelector(".show") .style.display="block"
+        })
+        let show=document.querySelector(".show")
+        show.addEventListener("click",function(){
+            show.style.display="none"
+        })
+
+    </script>
 </body>
 </html>

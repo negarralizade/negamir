@@ -3,7 +3,15 @@ button{
     height: 50px;
     background-color: #2b2b2b;
     color: whitesmoke;
-    line-height: 50px;
+    line-height: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    
+
+}
+.show{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    margin: 50px auto;
+    display: none;
+    position: absolute;
 }
